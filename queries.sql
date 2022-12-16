@@ -7,10 +7,10 @@ SELECT * FROM ANIMALS WHERE NAME LIKE '%mon';
 SELECT NAME FROM ANIMALS WHERE DATE_OF_BIRTH >= '2016-1-1' AND DATE_OF_BIRTH <= '2019-12-30';
 
 -- List the name of all animals that are neutered and have less than 3 escape attempts.
-SELECT NAME FROM ANIMALS WHERE NEUTERED IS TRUE AND ESCAPE_ATTEMPTS <= 3;
+SELECT NAME FROM ANIMALS WHERE NEUTERED IS TRUE AND ESCAPE_ATTEMPTS < 3;
 
 -- List the date of birth of all animals named either "Agumon" or "Pikachu".
-SELECT NAME, DATE_OF_BIRTH FROM ANIMALS WHERE NAME LIKE 'Agumon' OR NAME LIKE 'Pikachu';
+SELECT DATE_OF_BIRTH FROM ANIMALS WHERE NAME LIKE 'Agumon' OR NAME LIKE 'Pikachu';
 
 -- List name and escape attempts of animals that weigh more than 10.5kg
 SELECT NAME, ESCAPE_ATTEMPTS FROM ANIMALS WHERE WEIGHT_KG > 10.5;
