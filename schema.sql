@@ -8,3 +8,5 @@ CREATE TABLE animals (
     NEUTERED BOOLEAN, 
     WEIGHT_KG REAL
 );
+
+ALTER TABLE animals add column SPECIES VARCHAR(60);
