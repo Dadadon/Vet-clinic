@@ -14,12 +14,18 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ## Authors
 
-## Author
+## Author 1
 👤 **Davian Beroni**
 
 - GitHub: [dadadon](https://github.com/dadadon)
 - Twitter: [Davian Beroni](https://twitter.com/davianberoni)
 - LinkedIn: [Davian Beroni](https://www.linkedin.com/in/davian-beroni/)
+
+## Author 2
+👤 **Gilbert  Okonjo**
+
+- GitHub: [@githubhandle](https://github.com/OpondoG)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gilbert-okonjo/)
 
 ## 🤝 Contributing
 
